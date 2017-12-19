@@ -24,6 +24,7 @@ void loop() {
  
     HTTPClient http;  //Declare an object of class HTTPClient
  
+    //tulis API di bawah sini
     http.begin("http://jsonplaceholder.typicode.com/users/1");  //Specify request destination
     int httpCode = http.GET();                                                                  //Send the request
  
